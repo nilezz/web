@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB'z crew</title>
+    <link rel="Stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!--------------------google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <!--------------------/google fonts-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+<body>
+    <section class="header">
+       <nav>
+        <a href="index.html">
+            <img src="logo.png">
+        </a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-window-close-o" onclick="hidemenu()"></i>
+            
+        <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Course</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">contact us</a></li>
+        </ul>
+       
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+       
+    </nav>
+
+       <div class="text-box">
+        <h1>Welcome BB'z Crew of company</h1>
+        <p>We developing the  new website</p>
+        <a href="" class="hero-btn">Visit us to more</a>
+
+
+
+
+       </div>
+
+         
+    </section>
+
+<!----------------------javascript-->
+
+<script>
+
+var navLinks= document.getElementById("navLinks");
+function showmenu(){
+    navLinks.style.right ="0";
+}
+function hidemenu(){
+    navLinks.style.right ="-200px";
+}
+
+</script>
+    
+</body>
+</html>
